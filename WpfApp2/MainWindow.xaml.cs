@@ -24,10 +24,16 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
-        
+        Class1 c1 = new Class1();
         private void btnStampa_Click(object sender, RoutedEventArgs e)
         {
-
+            c1.nome = "Amin";
+            c1.cognome = "Boudlale";
+            lblStampa.Content = c1.nome + c1.cognome;
+            
+            
         }
     }
+
+    
 }

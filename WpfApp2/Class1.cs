@@ -15,6 +15,11 @@ namespace WpfApp2
             this.nome = nome;
             this.cognome = cognome;
         }
+
+        public Class1()
+        {
+        }
+
         public string getNome() { return nome; }
         public string getCognome() { return cognome; }
         public void setNome(string nome) { this.nome = nome; }
